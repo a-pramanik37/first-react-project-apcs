@@ -1,0 +1,34 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    background-color: antiquewhite;
+    padding: 30px;
+}
+
+.card {
+    background-color: slategrey;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.card-img img {
+    width: 100%;
+}
+
+.card-text h2{
+    font-size: 20px;
+    text-align: center;
+}
+
+.card-text h4 {
+    font-size: 15px;
+    text-align: center;
+}
+
+.card-text h3 {
+    font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+}

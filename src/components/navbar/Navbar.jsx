@@ -12,7 +12,7 @@ export function Navbar() {
         <div className="navbar-menu">
           <ul className="navbar-menu-list">
             {
-              navItems.map((navItem) => <NavBarItem title={navItem}/>)
+              navItems.map((navItem) => <NavBarItem key={navItem} title={navItem}/>)
             }
           </ul>
         </div>

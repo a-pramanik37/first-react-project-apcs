@@ -1,15 +1,15 @@
 
-import { Navbar, Footer } from "./components"
+import { useState } from "react";
+import { Navbar, Footer, MainSection } from "./components"
 
 
 function App() {
+
+
   return (
     <div>
       <Navbar/>
-      <main>
-        <h1>Main Section</h1>
-      </main>
-
+      <MainSection/>
       <Footer/>
 
     </div>
