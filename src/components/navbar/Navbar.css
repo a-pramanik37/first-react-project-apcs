@@ -13,6 +13,12 @@
     padding-bottom: 20px;
 }
 
+.navbar-logo a {
+    text-decoration: none;
+    list-style: none;
+    color: #000000;
+}
+
 .navbar-menu-list {
     display: flex;
     gap: 30px;
@@ -24,4 +30,12 @@
     border: 0px;
     border-radius: 2px;
     cursor: pointer;
+}
+
+.nav-element {
+    text-decoration: none;
+    color: #000000;
+}
+.highlight {
+    color: #ffffff;
 }
